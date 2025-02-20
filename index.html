@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotina Feliz</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Rotina Feliz 😊</h2>
+        <table>
+            <tbody id="routine-list"></tbody>
+        </table>
+    </div>
+
+    <div class="hydration-container">
+        <h3>Hidratação 💧</h3>
+        <p>Clique nos copos para marcar quantos já bebeu hoje!</p>
+        <div class="water-cups" id="water-cups"></div>
+    </div>
+
+    <div class="summary">
+        <h3>Resumo Mensal 📅</h3>
+        <p>Média de atividades concluídas: <span id="monthly-average">0%</span></p>
+    </div>
+
+    <div id="goodnight-message"><img src="img/boa_noite.webp"></div>
+
+    <div id="progress-bar-container">
+        <p>Progresso: <span id="progress-percentage">0%</span></p>
+        <div id="progress-bar" style="width: 0%;"></div>
+    </div>
+    <!-- Adicionando o botão para zerar as atividades diárias -->
+    <button id="reset-button" onclick="resetDailyProgress()">Zerar Atividades</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
