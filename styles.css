@@ -18,7 +18,7 @@ table {
     border-collapse: collapse;
 }
 th, td {
-    padding: 15px;
+    padding: 10px;
     border: 1px solid #ddd;
     text-align: center;
     width: 16%;
@@ -94,7 +94,7 @@ th, td {
     background-color: #FF6347;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 16px;
     cursor: pointer;
 }

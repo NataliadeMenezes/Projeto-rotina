@@ -14,20 +14,20 @@ const activities = [
     { name: "5 Escola", img: "img/imagem5.webp" },
     { name: "6 Café da Manhã", img: "img/imagem6.webp" },
     { name: "7 Escovar os Dentes", img: "img/imagem3.webp"},
-    { name: "8 Brincar", img: "img/imagem1.webp"},
-    { name: "9 Lanche", img: "img/imagem1.webp" },
-    { name: "10 Assistir TV", img: "img/imagem1.webp" },
-    { name: "11 Lavar as Mãos", img: "img/imagem1.webp" },
-    { name: "12 Almoçar", img: "img/imagem1.webp" },
+    { name: "8 Brincar", img: "img/imagem7.webp"},
+    { name: "9 Lanche", img: "img/imagem8.webp" },
+    { name: "10 Assistir TV", img: "img/imagem9.webp" },
+    { name: "11 Lavar as Mãos", img: "img/imagem10.webp" },
+    { name: "12 Almoçar", img: "img/imagem11.webp" },
     { name: "13 Escovar os dentes", img: "img/imagem3.webp"},
-    { name: "14 Horário Livre", img: "img/imagem1.webp" },
-    { name: "15 Lanche", img: "img/imagem1.webp"},
-    { name: "16 Atividades", img: "img/imagem1.webp"},
-    { name: "17 Horário Livre", img: "img/imagem1.webp"},
-    { name: "18 Tomar Banho", img: "img/imagem1.webp"},
-    { name: "19 Jantar", img: "img/imagem1.webp"},
+    { name: "14 Horário Livre", img: "img/imagem12.webp" },
+    { name: "15 Lanche", img: "img/imagem8.webp"},
+    { name: "16 Atividades", img: "img/imagem13.webp"},
+    { name: "17 Horário Livre", img: "img/imagem12.webp"},
+    { name: "18 Tomar Banho", img: "img/imagem14.webp"},
+    { name: "19 Jantar", img: "img/imagem15.webp"},
     { name: "20 Escovar os Dentes", img: "img/imagem3.webp"},
-    { name: "Dormir", img: "img/imagem1.webp"}
+    { name: "Dormir", img: "img/imagem16.webp"}
 ];
 
 let userProgress = JSON.parse(localStorage.getItem("userProgress")) || {
